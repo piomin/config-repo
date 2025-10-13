@@ -1,0 +1,13 @@
+app:
+  name: exampleapi-app
+  group: pminkows
+image:
+  repository: quay.io
+  tag: 1.0.0
+replicaCount: 2
+livenessProbe:
+  httpGet:
+    path: /health/live
+readinessProbe:
+  httpGet:
+    path: /health/ready
