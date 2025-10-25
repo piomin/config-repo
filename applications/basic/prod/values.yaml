@@ -1,6 +1,6 @@
 image:
   repository: piomin/basic
-  tag: 1.1-alpha
+  tag: 1.1-beta
 app:
   environment: prod
 message: "Hello Piotr from basic on prod!"
